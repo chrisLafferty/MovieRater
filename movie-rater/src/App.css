@@ -1,0 +1,84 @@
+.App {
+  padding: 80px;
+  min-height: 100vh;
+  background-color: rgb(32, 43, 53);
+  color: white;
+}
+
+.App-header {
+
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.layout{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.login_wrap{
+  width: 40%;
+  margin: 0 30% 0 30%;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 20px;
+  margin: 20px 0;
+  font-size: 0.9rem;
+  border-radius: 10px;
+}
+
+.orange{
+  color: orange;
+}
+.red{
+  color: red;
+}
+
+.rate-container{
+  border-top: 2px solid whitesmoke;
+  margin-top: 20px;
+}
+
+.rate-container .fa-star {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.movie-item {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  background-color: #313842;
+  
+}
+
+.fa-sign-out-alt {
+  
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  cursor: pointer;
+  font-size: 2.5rem;
+}
+
+.movie-item svg {
+  font-size: 1.4rem;
+  margin:20px  10px;
+}
+
+.movie-item h2 {
+  padding-left: 25px;
+}
+
+Button {
+  width:150px;
+  height:50px;
+  font-size: 01.0rem;
+  background-color: gray;
+  color: aliceblue;
+  border-radius: 10px;
+  margin:20px 0;
+}
